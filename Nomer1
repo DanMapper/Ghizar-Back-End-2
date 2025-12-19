@@ -15,7 +15,7 @@ const buatTeh = (gula) => {
 };
 
 
-buatTeh("Gula Batu")//"Gula Batu" diganti jadi apa aja yang lain dengan menggunakan " " supaya keluar output kedua
+buatTeh("Gula Batu")//"Gula Batu" diganti jadi apa aja yang lain dengan menggunakan " " supaya keluar output keduanya
   .then((hasil) => {
     console.log(hasil);
   })
