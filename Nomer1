@@ -1,0 +1,25 @@
+//Muhammad Ghizar Al Hasan NIM 103012400235 Back-End Tugas
+//Nomer 1
+const buatTeh = (gula) => {
+  console.log("Sedang merebus air ... (Tunggu 2 detik)");
+  
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      if (gula === "Gula Batu") {
+        resolve("✓ Teh Gula Batu Siap dinikmati!");
+      } else {
+        reject("✓ Maaf, stok gula habis.");
+      }
+    }, 2000);
+  });
+};
+
+
+buatTeh("Gula Batu")//"Gula Batu" diganti jadi apa aja yang lain dengan menggunakan " " supaya keluar output kedua
+  .then((hasil) => {
+    console.log(hasil);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+
